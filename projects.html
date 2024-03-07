@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 63);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(170, 107, 228);
+        /* font-size: 1.03rem; */
+      }
+
+      main hr {
+        border: 0;
+        height: 1.2px;
+        margin: 60px 84px;
+        background: rgb(170, 107, 228);
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 16vh 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 80%;
+        margin: 40px 0;
+      }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-grey {
+        color: gray;
+        font-size: 1.1rem;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 200px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 190px;
+      }
+
+      .image-top {
+        width: 73px;
+        position: relative;
+        top: -82px;
+        left: -35px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 300px;
+        align-items: center;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      section{
+        width:1000px;
+        height: 600px;
+      }
+
+      .projects-section {
+        max-width: 800px; 
+        margin: auto; 
+       
+        text-align: center; 
+        padding: 20px; 
+        }
+
+        .project{
+          margin-bottom: 50px;
+        }
+        .projects-section > h1{
+          color:rgb(170, 107, 228) ;
+          margin-top: 50px;
+        }
+        .projects-section > .project{
+          margin-top: 70px;
+        }
+        .projects-section > .project > p{
+          color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Shreyas's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="/about.html">ABOUT</a></li>
+              <li><a href="/projects.html">PROJECTS</a></li>
+              <li><a href="/contactme.html">CONTACT ME</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="projects-section">
+            <h1>PROJECTS</h1>
+
+            <div class="project">
+                <h2>Project 1 : Personal Portfolio Website</h2>
+                <p>Create a website to showcase your skills ,resume, and projects.</p>
+            </div>
+
+            <div class="project">
+                <h2>Project 2 : E-commerce Website</h2>
+                <p> Develop a simple online shoe store with features like product listings, shopping cart, and user authentication.</p>
+            </div>
+           
+            <div class="project">
+              <h2>Project 3 : Online Food Management System</h2>
+              <p>Created using php , SQL for college as a mini project of DBMS .</p>
+          </div>
+            <!-- Add more project entries as needed -->
+
+        </section> <hr>
+    </main>
+   
+
+
+      <footer>
+        <div class="footer">
+
+          <div class="footer-first">
+            <h3>Shreyas's Developer Portfolio</h3>
+          </div>
+
+        </div>
+        <div class="footer-rights">
+          Copyright &#169; www.shreyasportfolio.com | All rights reserved
+        </div>
+      </footer>
+  
+</body>
+</html>

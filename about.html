@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 63);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(170, 107, 228);
+        /* font-size: 1.03rem; */
+      }
+
+      main hr {
+        border: 0;
+        height: 1.2px;
+        margin: 60px 84px;
+        background: rgb(170, 107, 228);
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection > div {
+        width: 40%;
+      }
+      /* .firstSection {
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        margin: 9vh 1vh;
+        margin:6vh 0vh;
+      }
+
+      .leftSection {
+        font-size: 1.2rem;
+        margin-right: 700px; 
+        text-align:left;
+        width:50%;
+      }
+
+      .rightSection img {
+        width: 50%;
+        margin: 0px 900px;
+        max-width:100%;
+      } */
+  
+
+     .firstSection {
+       display: flex;
+       justify-content: center; 
+       align-items: center; 
+       flex-direction: column; 
+       margin: 11vh 0vh;
+       }
+
+     .leftSection {
+       font-size: 1.2rem;
+       text-align: center; 
+       margin-right: 0; 
+       }
+
+     .rightSection {
+       text-align: center; 
+       margin: 20px 0; 
+       }
+
+     .rightSection img {
+        width: 40%;
+        max-width: 100%; 
+        }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 300px;
+        align-items: center;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shreyas's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/projects.html">PROJECTS</a></li>
+            <li><a href="/contactme.html">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My Name is <span class="purple">Shreyas Tople</span>, a focused undergraduate student Persuing the degree of B.E from Computer Science Department at Sipna COET , Amravati. Eager to apply my academic foundation in Software Field , I bring strong skills in Programming and proficiency in Java/python and web development.  As a proactive learner, I'm excited about contributing to any Organization  and expanding my skills in a professional setting. References available upon request.
+        <div class="rightSection">
+          <img src="img/mypic.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Shreyas's Developer Portfolio</h3>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; www.shreyasportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+  </body>
+</html>
